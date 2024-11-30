@@ -1,0 +1,41 @@
+/* CSS for responsive design */
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 90%;
+        max-width: none;
+        height: 500px;
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+        max-width: none;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+    button {
+        width: 10%; /* Adjust button width as needed */
+        height: 50px; /* Adjust button height as needed */
+        margin-bottom: 10px;
+    }
+
+    button:nth-child(1) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    button:nth-child(2) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
